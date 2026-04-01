@@ -5,7 +5,7 @@ export type Employee = {
     employee_salary: number;
 };
 
-type ApiResponse = {
+export type ApiResponse = {
     status: string;
     data: Employee[];
     message: string;
